@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Roboto+Slab:wght@500&display=swap');
+
 :root {
 --primary-color : #E67E22;
 --secondary-color : #485460;
@@ -10,6 +12,7 @@
 body{
     width: 100%;
     height: 100vh;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container{
