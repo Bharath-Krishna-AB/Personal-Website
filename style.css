@@ -71,7 +71,8 @@ body{
 .Name{
     font-family: 'Dancing Script', cursive;
     color: #fff;
-    font-size: 50px;
+    font-size: 60px;
+    margin-bottom: 5px;
 }
 
 .Quotes{
@@ -80,7 +81,23 @@ body{
 }
 
 .drop-Arrow{
+    margin-top: 15px;
     color: #fff;
-    transform: rotate(90deg); 
-    font-size: 30px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+    animation: arrowbounce 1s infinite alternate-reverse both;
+}
+
+@keyframes arrowbounce {
+    0% {
+        transform: rotate(90deg) translateX(4px);
+      }
+      100% {
+        transform: rotate(90deg) translateX(-4px);
+      }
+  }
+
+.drop-Arrow:hover{
+    color: var(--primary-color);
 }
