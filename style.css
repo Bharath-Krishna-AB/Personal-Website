@@ -33,6 +33,11 @@ body{
     text-decoration: none;
     list-style: none;
     margin-left: 20px;
+    color: #fff;
+}
+
+.current-item{
+    color: var(--primary-color);
 }
 
 .ul-list{
