@@ -23,10 +23,11 @@ body{
 .NavBar{
     width: 100%;
     height: 60px;
-    background-color: red;
+    background-color: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
 }
 
 .nav-items{
@@ -42,4 +43,9 @@ body{
 
 .ul-list{
     display: flex;
+}
+
+.Home-Section{
+    width: 100%;
+    height: 100%;
 }
