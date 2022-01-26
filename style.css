@@ -119,6 +119,8 @@ body{
 .logo{
     position: fixed;
     left: 40px;
+    opacity: 0;
+    transition: ease-in-out 1s;
 }
 
 .logo-h1{

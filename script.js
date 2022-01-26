@@ -7,12 +7,15 @@ var typed = new Typed('.auto-input',{
 
 
 var navbar = document.querySelector('.NavBar')
+var logo = document.querySelector('.logo')
 
 
 addEventListener('scroll',()=>{
     if(window.scrollY > 300){
         navbar.style.background = '#485460'
+        logo.style.opacity = '1'
     }else{
         navbar.style.background = 'transparent'
+        logo.style.opacity = '0'
     }
 })
