@@ -173,3 +173,41 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.bar{
+    background: #e6e6e6;
+    display: block;
+    height: 30px;
+    width: 40%;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.bar span{
+    height: 30px;
+    float: left;
+    background: var(--primary-color);
+}
+
+.html{
+    width: 90%;
+}
+
+li{
+    list-style: none;
+}
+
+.skill{
+    font-size: 15px;
+}
+
+.percentage{
+    margin-left: 90%;
+    font-size: 15px;
+}
+
+
+.skill-percentage-container{
+    width: 40%;
+    display: flex;
+}
