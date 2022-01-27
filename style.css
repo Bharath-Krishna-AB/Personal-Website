@@ -136,3 +136,15 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.side-arrow-aboutme{
+    color: var(--primary-color);
+}
+
+.details-highlited-area{
+    color: black;
+}
+
+.details{
+    color: var(--secondary-color);
+}
