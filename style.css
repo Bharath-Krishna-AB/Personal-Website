@@ -258,3 +258,11 @@ li{
     margin-bottom: 1.6rem;
 }
 
+
+
+.tripple-line div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+}
