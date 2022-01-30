@@ -276,10 +276,15 @@ li{
     margin: 5px;
 }
 
+.line1{
+    display: flex;
+}
+
 
 @media screen and (max-width:768px) {
     .tripple-line{
         display: initial;
+        transition: 0.5s ease-in;
     }
 
     .ul-list{
