@@ -261,6 +261,12 @@ li{
 .tripple-line{
     position: absolute;
     display: none;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.tripple-line:hover{
+    opacity: 0.8;
 }
 
 .tripple-line div{
