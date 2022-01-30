@@ -258,11 +258,25 @@ li{
     margin-bottom: 1.6rem;
 }
 
-
+.tripple-line{
+    position: absolute;
+    display: none;
+}
 
 .tripple-line div{
     width: 25px;
     height: 3px;
     background-color: rgb(226, 226, 226);
     margin: 5px;
+}
+
+
+@media screen and (max-width:768px) {
+    .tripple-line{
+        display: initial;
+    }
+
+    .ul-list{
+        display: none;
+    }
 }
