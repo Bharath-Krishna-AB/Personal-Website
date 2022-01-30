@@ -19,3 +19,19 @@ addEventListener('scroll',()=>{
         logo.style.opacity = '0'
     }
 })
+
+
+
+
+
+const navSlide = ()=>{
+    const trippleLine = document.querySelector('.tripple-line')
+    const nav = document.querySelector('.ul-list')
+
+    trippleLine.addEventListener('click',()=>{
+        console.log('init');
+        nav.classList.toggle("nav-active")
+    })
+}
+
+navSlide()
