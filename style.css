@@ -232,3 +232,28 @@ li{
 .blender{
     width: 20%;
 }
+
+.skillbar{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-bars{
+    width: 50%;
+    height: 100%;
+}
+
+.right-bars{
+    width: 50%;
+    height: 100%;
+}
+
+.bar-li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
