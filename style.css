@@ -178,7 +178,7 @@ body{
     background: #e6e6e6;
     display: block;
     height: 30px;
-    width: 40%;
+    width: 30%;
     overflow: hidden;
     border-radius: 2px;
 }
@@ -198,16 +198,17 @@ li{
 }
 
 .skill{
+    width: 92%;
     font-size: 15px;
 }
 
 .percentage{
-    margin-left: 90%;
+    width: 8%;
     font-size: 15px;
 }
 
 
 .skill-percentage-container{
-    width: 40%;
+    width: 30%;
     display: flex;
 }
