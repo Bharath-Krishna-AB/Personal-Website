@@ -12,7 +12,7 @@ var logo = document.querySelector('.logo')
 
 addEventListener('scroll',()=>{
     if(window.scrollY > 300){
-        navbar.style.background = '#485460'
+        navbar.style.background = 'var(--secondary-color)'
     }else{
         navbar.style.background = 'transparent'
     }
