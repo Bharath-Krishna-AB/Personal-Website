@@ -25,13 +25,9 @@ addEventListener('scroll',()=>{
 const navSlide = ()=>{
     const trippleLine = document.querySelector('.tripple-line')
     const nav = document.querySelector('.ul-list')
-    const line1 = document.querySelector('.line1')
-    var display = false
 
     trippleLine.addEventListener('click',()=>{
         console.log('init');
-            line1.style.display = display ? 'flex': 'none'
-            display = !display
         nav.classList.toggle("nav-active")
     })
 }
