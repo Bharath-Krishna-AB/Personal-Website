@@ -281,6 +281,25 @@ li{
     display: flex;
 }
 
+.close-btn{
+    width: 50px;
+}
+
+.close-btn div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: -2px;
+}
+
+.close-line1{
+    transform: rotate(45deg);
+}
+.close-line2{
+    transform: rotate(-45deg);
+}
+
+
 
 @media screen and (max-width:768px) {
     .tripple-line{
@@ -318,3 +337,4 @@ li{
         margin-top: -2rem;
     }
 }
+
