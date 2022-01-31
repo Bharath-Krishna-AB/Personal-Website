@@ -58,7 +58,7 @@ body{
 .ul-list{
     display: flex;
     position: absolute;
-    margin-left: 170px;
+    margin-left: 170px
 }
 
 .Home-Section{
@@ -286,6 +286,8 @@ li{
     .tripple-line{
         display: initial;
         transition: 0.5s ease-in;
+        position: absolute;
+        right: 30px;
     }
 
     .ul-list{
@@ -300,6 +302,7 @@ li{
         justify-content: center;
         transform: translateX(100%);
         transition: 0.5s ease-in;
+        margin-left: 0px;
     }
 
     .nav-active{
