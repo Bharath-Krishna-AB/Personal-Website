@@ -22,12 +22,11 @@ addEventListener('scroll',()=>{
 
 
 
-const navSlide = ()=>{
+const navBarEditing = ()=>{
     const trippleLine = document.querySelector('.tripple-line')
     const nav = document.querySelector('.ul-list')
     const closeBtn = document.querySelector('.close-btn')
-    var display = true
-
+    
     trippleLine.addEventListener('click',()=>{
         console.log('init');
         nav.classList.toggle("nav-active")
@@ -42,9 +41,7 @@ const navSlide = ()=>{
     })
 }
 
-navSlide()
-
-
+navBarEditing()
 
 
 

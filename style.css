@@ -281,6 +281,12 @@ li{
     display: flex;
 }
 
+
+
+
+@media screen and (max-width:768px) {
+
+    
 .close-btn{
     display: none;
     position: absolute;
@@ -303,9 +309,6 @@ li{
     transform: rotate(-45deg);
 }
 
-
-
-@media screen and (max-width:768px) {
     .tripple-line{
         display: initial;
         transition: 0.5s ease-in;
