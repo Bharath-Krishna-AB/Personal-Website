@@ -26,7 +26,7 @@ const navBarEditing = ()=>{
     const trippleLine = document.querySelector('.tripple-line')
     const nav = document.querySelector('.ul-list')
     const closeBtn = document.querySelector('.close-btn')
-    
+
     trippleLine.addEventListener('click',()=>{
         console.log('init');
         nav.classList.toggle("nav-active")
@@ -46,3 +46,12 @@ navBarEditing()
 
 
 
+function navItemSlideBack (){
+    const nav = document.querySelector('.ul-list')
+    const closeBtn = document.querySelector('.close-btn')
+    const trippleLine = document.querySelector('.tripple-line')
+
+    nav.classList.toggle("nav-active")
+    trippleLine.style.display = 'inline'
+    closeBtn.style.display = 'none'
+}
