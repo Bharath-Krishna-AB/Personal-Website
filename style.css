@@ -282,7 +282,9 @@ li{
 }
 
 .close-btn{
-    width: 50px;
+    display: none;
+    position: absolute;
+    right: 30px;
 }
 
 .close-btn div{
@@ -290,6 +292,8 @@ li{
     height: 3px;
     background-color: rgb(226, 226, 226);
     margin: -2px;
+    position: absolute;
+    right: 7px;
 }
 
 .close-line1{
