@@ -31,8 +31,14 @@ const navSlide = ()=>{
     trippleLine.addEventListener('click',()=>{
         console.log('init');
         nav.classList.toggle("nav-active")
-        closeBtn.style.display = display ? 'inline' : 'none'
-        display=!display
+        closeBtn.style.display = 'inline'
+        trippleLine.style.display = 'none'
+    })
+
+    closeBtn.addEventListener('click',()=>{
+        nav.classList.toggle("nav-active")
+        trippleLine.style.display = 'inline'
+        closeBtn.style.display = 'none'
     })
 }
 
