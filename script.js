@@ -29,15 +29,19 @@ const navBarEditing = ()=>{
 
     trippleLine.addEventListener('click',()=>{
         console.log('init');
+        trippleLine.classList.remove('buttonTransition')
         nav.classList.toggle("nav-active")
         closeBtn.style.display = 'inline'
         trippleLine.style.display = 'none'
+        closeBtn.classList.add('buttonTransition')
     })
 
     closeBtn.addEventListener('click',()=>{
+        closeBtn.classList.remove('buttonTransition')
         nav.classList.toggle("nav-active")
         trippleLine.style.display = 'inline'
         closeBtn.style.display = 'none'
+        trippleLine.classList.add('buttonTransition')
     })
 }
 

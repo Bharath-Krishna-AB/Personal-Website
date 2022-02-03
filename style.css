@@ -268,7 +268,6 @@ li{
     position: absolute;
     display: none;
     cursor: pointer;
-    transition: 1s ease-in-out;
 }
 
 .tripple-line:hover{
@@ -310,7 +309,6 @@ li{
 
     .tripple-line{
         display: initial;
-        transition: 0.5s ease-in;
         position: absolute;
         right: 30px;
     }
@@ -342,5 +340,17 @@ li{
     .current-item{
         margin-top: -2rem;
     }
+
+    .buttonTransition{
+        animation: buttonTransition 0.5s ease-in;
+    }
 }
 
+@keyframes buttonTransition {
+    0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+  }
