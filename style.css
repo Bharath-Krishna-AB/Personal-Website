@@ -142,7 +142,7 @@ body{
     font-size: 25px;
     color: white;
     font-family: 'Dancing Script', cursive;
-
+    cursor: pointer;
 }
 
 .aboutme-container{
@@ -304,6 +304,7 @@ li{
     display: none;
     position: absolute;
     right: 30px;
+    cursor: pointer;
 }
 
 .close-btn div{
