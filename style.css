@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Roboto+Slab:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
 
 :root {
 --primary-color : #E67E22;
@@ -151,6 +152,17 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.aboutme-heading{
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    font-size: xx-large;
+}
+
+.aboutme-heading span{
+    color: var(--primary-color);
 }
 
 .side-arrow-aboutme{
