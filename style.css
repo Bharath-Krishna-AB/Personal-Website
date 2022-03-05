@@ -209,11 +209,10 @@ body{
 .bar{
     background: #e6e6e6;
     display: block;
-    height: 3rem;
+    height: 2.5rem;
     width: 80%;
     overflow: hidden;
-    border-radius: 2px;
-
+    border-radius: 3px;
 }
 
 .bar span{
