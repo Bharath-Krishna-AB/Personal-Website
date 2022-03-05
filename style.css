@@ -402,6 +402,27 @@ li{
       }
   }
 
+
+  .projects{
+      width: 100%;
+      height: 100vh;
+  }
+
+  .projects-heading-container{
+      width: 100%;
+      height: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .projects-heading{
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    font-size: xx-large;
+  }
+
   @media(max-width:998px){
       html{
           font-size: 55%;
