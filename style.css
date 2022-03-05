@@ -209,7 +209,7 @@ body{
 .bar{
     background: #e6e6e6;
     display: block;
-    height: 30px;
+    height: 3rem;
     width: 80%;
     overflow: hidden;
     border-radius: 2px;
@@ -237,12 +237,12 @@ li{
 
 .skill{
     width: 92%;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 
 .percentage{
     width: 8%;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 
 
