@@ -58,6 +58,11 @@ body{
     margin-left: 30px;
     color: #fff;
     font-size: 15px;
+    transition: .5s ease-in-out;
+}
+
+.nav-items:hover{
+    color: #ffffff96;
 }
 
 .current-item{
