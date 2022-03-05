@@ -8,6 +8,10 @@ var typed = new Typed('.auto-input',{
 
 var navbar = document.querySelector('.NavBar')
 var logo = document.querySelector('.logo')
+var homebtn = document.getElementById('home-btn')
+var aboutbtn = document.getElementById('about-btn')
+var gallerybtn = document.getElementById('gallery-btn')
+var contactbtn = document.getElementById('contact-btn')
 
 
 addEventListener('scroll',()=>{
@@ -15,6 +19,16 @@ addEventListener('scroll',()=>{
         navbar.style.background = 'var(--secondary-color)'
     }else{
         navbar.style.background = 'transparent'
+    }
+
+    if(window.scrollY >=0){
+        homebtn.style.color = 'var(--primary-color)'
+        aboutbtn.style.color = ''
+    }
+    if (window.scrollY >=500){
+        console.log('entered');
+        homebtn.style.color = ''
+        aboutbtn.style.color = 'var(--primary-color)'
     }
 })
 
