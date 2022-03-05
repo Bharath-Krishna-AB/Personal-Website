@@ -13,6 +13,8 @@ var aboutbtn = document.getElementById('about-btn')
 var gallerybtn = document.getElementById('gallery-btn')
 var contactbtn = document.getElementById('contact-btn')
 
+homebtn.style.color = 'var(--primary-color)'
+
 
 addEventListener('scroll',()=>{
     if(window.scrollY > 300){
