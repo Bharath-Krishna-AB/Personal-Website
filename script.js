@@ -10,7 +10,7 @@ var navbar = document.querySelector('.NavBar')
 var logo = document.querySelector('.logo')
 var homebtn = document.getElementById('home-btn')
 var aboutbtn = document.getElementById('about-btn')
-var gallerybtn = document.getElementById('gallery-btn')
+var projectsbtn = document.getElementById('projects-btn')
 var contactbtn = document.getElementById('contact-btn')
 
 homebtn.style.color = 'var(--primary-color)'
@@ -27,10 +27,17 @@ addEventListener('scroll',()=>{
         homebtn.style.color = 'var(--primary-color)'
         aboutbtn.style.color = ''
     }
-    if (window.scrollY >=500){
+    if (window.scrollY >=300){
         console.log('entered');
         homebtn.style.color = ''
+        projectsbtn.style.color = ''
         aboutbtn.style.color = 'var(--primary-color)'
+    }
+
+    if (window.scrollY >=700){
+        console.log('entered');
+        aboutbtn.style.color = ''
+        projectsbtn.style.color = 'var(--primary-color)'
     }
 })
 
