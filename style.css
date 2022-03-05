@@ -410,10 +410,3 @@ li{
         font-size: 45%;
     }
 }
-
-
-@media(max-width:465px){
-    html{
-        font-size: 40%;
-    }
-}
